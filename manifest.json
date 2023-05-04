@@ -2,8 +2,10 @@
   "manifest_version": 3,
   "name": "Google search results hotkeys",
   "version": "1.0",
-  "icons": {},
-  "description": "Use number keys to open search results",
+  "icons": {
+    "128": "google-search-hotkeys-logo-128.png"
+  },
+  "description": "Go to google search result using number keys 1-9.",
   "content_scripts": [
     {
       "matches": ["https://www.google.com/search*"],
